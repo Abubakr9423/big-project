@@ -219,6 +219,21 @@
   .mx-auto {
     margin-inline: auto;
   }
+  .mt-\[-100px\] {
+    margin-top: -100px;
+  }
+  .mt-\[-200px\] {
+    margin-top: -200px;
+  }
+  .mt-\[-500px\] {
+    margin-top: -500px;
+  }
+  .mt-\[-1000px\] {
+    margin-top: -1000px;
+  }
+  .mt-\[00px\] {
+    margin-top: 00px;
+  }
   .mt-\[10px\] {
     margin-top: 10px;
   }
@@ -336,6 +351,9 @@
   .h-\[237px\] {
     height: 237px;
   }
+  .h-\[252px\] {
+    height: 252px;
+  }
   .h-\[304px\] {
     height: 304px;
   }
@@ -354,6 +372,9 @@
   .h-\[351px\] {
     height: 351px;
   }
+  .h-\[385px\] {
+    height: 385px;
+  }
   .h-\[430px\] {
     height: 430px;
   }
@@ -366,8 +387,17 @@
   .h-\[642px\] {
     height: 642px;
   }
+  .h-\[742px\] {
+    height: 742px;
+  }
   .h-\[892px\] {
     height: 892px;
+  }
+  .h-\[7427px\] {
+    height: 7427px;
+  }
+  .h-\[7427x\] {
+    height: 7427x;
   }
   .h-full {
     height: 100%;
@@ -462,8 +492,14 @@
   .w-\[400px\] {
     width: 400px;
   }
+  .w-\[447px\] {
+    width: 447px;
+  }
   .w-\[490px\] {
     width: 490px;
+  }
+  .w-\[537p\] {
+    width: 537p;
   }
   .w-\[569px\] {
     width: 569px;
@@ -489,6 +525,9 @@
   .w-\[713px\] {
     width: 713px;
   }
+  .w-\[726px\] {
+    width: 726px;
+  }
   .w-\[817px\] {
     width: 817px;
   }
@@ -509,6 +548,12 @@
   }
   .w-\[1009px\] {
     width: 1009px;
+  }
+  .w-\[1200px\] {
+    width: 1200px;
+  }
+  .w-\[1400px\] {
+    width: 1400px;
   }
   .w-\[2200x\] {
     width: 2200x;
@@ -549,8 +594,14 @@
   .flex-wrap {
     flex-wrap: wrap;
   }
+  .items-baseline-last {
+    align-items: last baseline;
+  }
   .items-center {
     align-items: center;
+  }
+  .items-center-safe {
+    align-items: safe center;
   }
   .items-end {
     align-items: flex-end;
@@ -779,6 +830,12 @@
   .p-6 {
     padding: calc(var(--spacing) * 6);
   }
+  .p-7 {
+    padding: calc(var(--spacing) * 7);
+  }
+  .p-8 {
+    padding: calc(var(--spacing) * 8);
+  }
   .p-10 {
     padding: calc(var(--spacing) * 10);
   }
@@ -919,6 +976,9 @@
   }
   .text-end {
     text-align: end;
+  }
+  .text-start {
+    text-align: start;
   }
   .font-sans {
     font-family: var(--font-sans);
